@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3584622E23E521BF0064AB08 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584622D23E521BF0064AB08 /* MovieGridViewController.swift */; };
+		3584623023E52FB80064AB08 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3584622F23E52FB80064AB08 /* MovieGridCell.swift */; };
 		359A79A423DFAA1700DAFFED /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359A79A323DFAA1700DAFFED /* MovieDetailsViewController.swift */; };
 		35AFBFE623DD370300346F8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFBFE523DD370300346F8E /* AppDelegate.swift */; };
 		35AFBFE823DD370300346F8E /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AFBFE723DD370300346F8E /* MoviesViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3584622D23E521BF0064AB08 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		3584622F23E52FB80064AB08 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		359A79A323DFAA1700DAFFED /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		35AFBFE223DD370200346F8E /* flickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AFBFE523DD370300346F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,11 +89,13 @@
 				35AFBFE523DD370300346F8E /* AppDelegate.swift */,
 				35AFBFE723DD370300346F8E /* MoviesViewController.swift */,
 				35AFBFE923DD370300346F8E /* Main.storyboard */,
+				3584622F23E52FB80064AB08 /* MovieGridCell.swift */,
 				35AFBFEC23DD370400346F8E /* Assets.xcassets */,
 				35AFBFEE23DD370400346F8E /* LaunchScreen.storyboard */,
 				35AFBFF123DD370400346F8E /* Info.plist */,
 				35AFBFF723DD405000346F8E /* MovieCell.swift */,
 				359A79A323DFAA1700DAFFED /* MovieDetailsViewController.swift */,
+				3584622D23E521BF0064AB08 /* MovieGridViewController.swift */,
 			);
 			path = flickr;
 			sourceTree = "<group>";
@@ -209,9 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3584622E23E521BF0064AB08 /* MovieGridViewController.swift in Sources */,
 				359A79A423DFAA1700DAFFED /* MovieDetailsViewController.swift in Sources */,
 				35AFBFE823DD370300346F8E /* MoviesViewController.swift in Sources */,
 				35AFBFE623DD370300346F8E /* AppDelegate.swift in Sources */,
+				3584623023E52FB80064AB08 /* MovieGridCell.swift in Sources */,
 				35AFBFF823DD405000346F8E /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
